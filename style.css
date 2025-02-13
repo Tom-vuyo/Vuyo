@@ -1,0 +1,72 @@
+.home {
+    background: url('/storage/emulated/0/web01/images/wwe.jpeg'); 
+    background-size: cover; 
+    height: 100vh;
+}
+
+.nav {
+    height: 50px;
+    background: blue;
+    position: relative; /* Position nav within the home container */
+}
+
+.nav div {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav ul {
+    position: absolute;
+    right: 5px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: white;
+    padding: 5px;
+}
+
+.content {
+    margin-top: 60px; /* Adjust for nav height */
+    text-align: center;
+    color: white; /* Optional: Text color for better visibility on the image */
+}
+
+/* Styling for the "About" page */
+.about .content h1 {
+    text-align: center;
+    color: red;
+}
+
+.about .content p {
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+    margin: 100px auto 0 auto; 
+    width: 500px; 
+}
+
+/* Styling for the "Services" page */
+.services .content p {
+    margin: 150px auto 0 auto; /* Maintain some spacing for the Services page */
+    width: 500px; 
+    text-align: center; 
+    color: green; 
+}
+
+.services .content .card-container ul {
+    padding: 0;
+}
+
+.services .content .card-container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
